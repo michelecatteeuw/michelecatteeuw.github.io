@@ -8,11 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/manifest.json">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
     <title>Foodtruck</title>
 </head>
 
 <body>
-
     <!-- navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-toggleable-xs" style="background-color: #fdfdfd;">
@@ -23,19 +35,17 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="info.html">Ons Verhaal
-                            <span class="sr-only">(current)</span>
+                        <a class="nav-link" href="info.html">Ons Verhaal  
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Ons Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="producten.html">Onze Producten</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="menu.html">Ons Menu
+                                <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="reserveren.html">Reserveren</a>
@@ -46,7 +56,9 @@
                 </ul>
             </div>
 
-            <a class="navbar-brand" href="index.html">LOGO</a>
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="./images/logo.png" alt="Logo">
+            </a>
         </nav>
     </header>
     <!-- navbar -->
@@ -56,121 +68,311 @@
         <div class="row">
             <!-- Header Blok, volledige foto -->
             <div class="col-sm-12">
-                <div class="grey hoogte1" style="background-color: grey;"></div>
+                <div class="grey hoogte2" style="background-color: lightgray;"></div>
                 <!-- Overlappende tekst -->
-                <h1>YOU MOVE US!</h1>
+                <div class="titel1b">01</div>
             </div>
         </div>
     </div>
+
     <!-- content -->
-
-
+    <!-- 1 -->
     <div class="container mainblok">
-        <!-- 1 -->
         <div class="row">
             <div class="col-md-6 col-sm-12 tekst">
-                <h2>Stone Burger</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam cupiditate sequi minima ea deserunt
-                    ratione quasi corporis iusto labore necessitatibus sit architecto, quam totam ad nisi harum! Aliquid
-                    at velit molestiae illum possimus minus autem laborum.
+                <div class="titel2">STEAKHOUSE</div>
+                <br>
+                <p>Zijn troeven?
+                    <br> Gefrituurde ui, spek, heerlijke barbecuesaus… en vooral zijn 100% rundsvleesburger op het vuur gegrild
+                    en een sneetje gesmolten kaas.
                 </p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="grey hoogte" style="background-color: grey;"></div>
+                <img class="menu_foto" src="./images/steakhouse.jpg" alt="Steakhouse">
             </div>
         </div>
 
-
         <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="grey hoogte" style="background-color: grey;"></div>
+            <div class="col-md-4 col-sm-12 kader1">
+                <div class="grey hoogte" style="background-color: lightgrey;"></div>
+                <div class="tekst1a">
+                    <div class="titel2">EXTRA?! </div>
+                    <br>
+                    <p> - Kaas
+                        <br> - Ham, spek
+                        <br> - Ei
+                        <br> - Frietjes
+                        <br> - Salade
+                        <br> - Tomaat
+                        <br> - Augurk
+                        <br> - …</p>
+                </div>
             </div>
-            <div class="offset-md-2 col-md-4 col-sm-12">
+            <div class="offset-md-2 col-md-4 col-sm-12 kader2">
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="grey hoogte producten" style="background-color: grey;"></div>
+                <div class="grey hoogte producten" style="background-color: lightgrey;"></div>
                 <div class="tekst prod">
-                    <h2>Producten</h2>
-                    <p> - Cheese
-                        <br> - Salad
-                        <br> - Onions
+                    <div class="tekst1b">
+                        <div class="titel2">ALLERGENEN</div>
                         <br>
-                    </p>
+                        <p> - Gluten
+                            <br> - Melk
+                            <br> - Lupine
+                            <br> - Mosterd
+                            <br> - Eieren
+                            <br> - Soja
+                            <br> - Sesam
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- 2 -->
+    <!-- 2 -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Header Blok, volledige foto -->
+            <div class="col-sm-12">
+                <div class="grey hoogte2" style="background-color: lightgray;"></div>
+                <!-- Overlappende tekst -->
+                <div class="titel1b">02</div>
+            </div>
+        </div>
+    </div>
+    <div class="container mainblok">
         <div class="row">
             <div class="col-md-6 col-sm-12 tekst">
-                <h2>Stone Burger</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aperiam cupiditate sequi minima ea deserunt
-                    ratione quasi corporis iusto labore necessitatibus sit architecto, quam totam ad nisi harum! Aliquid
-                    at velit molestiae illum possimus minus autem laborum.
+                <div class="titel2">CHICKENHOUSE</div>
+                <br>
+                <p>Zin in kip?!<br>
+                        Onweerstaanbaar met z’n krokant gepaneerde kip. Tussen 
+                        een maïsbroodje, met verse tomaten en romige mayonaise
                 </p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="grey hoogte" style="background-color: grey;"></div>
+                <img class="menu_foto" src="./images/chicken.jpg" alt="Chickenhouse">
             </div>
         </div>
 
-
         <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="grey hoogte" style="background-color: grey;"></div>
+            <div class="col-md-4 col-sm-12 kader1">
+                <div class="grey hoogte" style="background-color: lightgrey;"></div>
+                <div class="tekst1a">
+                    <div class="titel2">EXTRA?! </div>
+                    <br>
+                    <p> - Kaas
+                        <br> - Ham, spek
+                        <br> - Ei
+                        <br> - Frietjes
+                        <br> - Salade
+                        <br> - Tomaat
+                        <br> - Augurk
+                        <br> - …</p>
+                </div>
             </div>
-            <div class="offset-md-2 col-md-4 col-sm-12">
+            <div class="offset-md-2 col-md-4 col-sm-12 kader2">
                 <br>
                 <br>
                 <br>
                 <br>
-                <div class="grey hoogte producten" style="background-color: grey;"></div>
-                <div class="tekst">
-                    <h2>Producten</h2>
-                    <p> - Cheese
-                        <br> - Salad
-                        <br> - Onions
+                <div class="grey hoogte producten" style="background-color: lightgrey;"></div>
+                <div class="tekst prod">
+                    <div class="tekst1b">
+                        <div class="titel2">ALLERGENEN</div>
                         <br>
-                    </p>
+                        <p> - Gluten
+                            <br> - Melk
+                            <br> - Lupine
+                            <br> - Mosterd
+                            <br> - Eieren
+                            <br> - Soja
+                            <br> - Sesam
+
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- 3 -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Header Blok, volledige foto -->
+            <div class="col-sm-12">
+                <div class="grey hoogte2" style="background-color: lightgray;"></div>
+                <!-- Overlappende tekst -->
+                <div class="titel1b">03</div>
+            </div>
+        </div>
+    </div>
+    <div class="container mainblok">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 tekst">
+                <div class="titel2">FISHHOUSE</div>
+                <br>
+                <p>Zin in vis? <br>
+                        Laat je verleiden door de FISHHOUSE! Krokant gepaneerde vis, 
+                        smeuïge saus en knapperige sla.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="menu_foto" src="./images/fish.jpg" alt="Fishhouse">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12 kader1">
+                <div class="grey hoogte" style="background-color: lightgrey;"></div>
+                <div class="tekst1a">
+                    <div class="titel2">EXTRA?! </div>
+                    <br>
+                    <p> - Kaas
+                        <br> - Ham, spek
+                        <br> - Ei
+                        <br> - Frietjes
+                        <br> - Salade
+                        <br> - Tomaat
+                        <br> - Augurk
+                        <br> - …</p>
+                </div>
+            </div>
+            <div class="offset-md-2 col-md-4 col-sm-12 kader2">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="grey hoogte producten" style="background-color: lightgrey;"></div>
+                <div class="tekst prod">
+                    <div class="tekst1b">
+                        <div class="titel2">ALLERGENEN</div>
+                        <br>
+                        <p> - Gluten
+                            <br> - Melk
+                            <br> - Lupine
+                            <br> - Mosterd
+                            <br> - Eieren
+                            <br> - Soja
+                            <br> - Sesam
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Header Blok, volledige foto -->
+            <div class="col-sm-12">
+                <div class="grey hoogte2" style="background-color: lightgray;"></div>
+                <!-- Overlappende tekst -->
+                <div class="titel1b">04</div>
+            </div>
+        </div>
+    </div>
+    <div class="container mainblok">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 tekst">
+                <div class="titel2">VEGGI LICIOUS</div>
+                <br>
+                <p>Een zachte gepaneerde veggiefilet op basis van magere melk, 
+                        een licht sausje met een vleugje citroen en frisse salade.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="menu_foto" src="./images/veggi.jpg" alt="Veggi Licious">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12 kader1">
+                <div class="grey hoogte" style="background-color: lightgrey;"></div>
+                <div class="tekst1a">
+                    <div class="titel2">EXTRA?! </div>
+                    <br>
+                    <p> - Kaas
+                        <br> - Ham, spek
+                        <br> - Ei
+                        <br> - Frietjes
+                        <br> - Salade
+                        <br> - Tomaat
+                        <br> - Augurk
+                        <br> - …</p>
+                </div>
+            </div>
+            <div class="offset-md-2 col-md-4 col-sm-12 kader2">
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="grey hoogte producten" style="background-color: lightgrey;"></div>
+                <div class="tekst prod">
+                    <div class="tekst1b">
+                        <div class="titel2">ALLERGENEN</div>
+                        <br>
+                        <p> - Gluten
+                            <br> - Melk
+                            <br> - Lupine
+                            <br> - Mosterd
+                            <br> - Eieren
+                            <br> - Soja
+                            <br> - Sesam
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- end content -->
 
     <!-- Contact -->
-
-    <div class="container">
+    <div class="container_contact">
         <div class="row">
             <div class="col-sm-12 socialmedia">
-                <img src="./images/facebook.png" class="facebook" alt="facebook">
-                <img src="./images/instagram.png" class="instagram" alt="instagram">
+                <a href="./images/socialmedia.jpg" id="share-fb" class="sharer button">
+                    <i class="fa fa-3x fa-facebook-square"></i>
+                </a>
+                <a href="mailtemplate.html" id="nieuwsbrief" class="nieuwsbrief">
+                    <i class="fa fa-3x fa-envelope-square"></i>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="contact_tekst">Wil je meer over ons weten?
+                <div class="titel3">Wil je meer over ons weten?
                     <br>
                     <a href="contact.html">Contacteer ons!</a>
-                </h2>
+                </div>
+                <br>
+                <br>
+                <p class="contact_tekst"> Michèle Catteeuw
+                    <br> Artevelde Hogeschool - Campus Mariakerke
+                    <br> NMD II - Eindopdracht
+                    <br> <a href="./images/productiedossier.pdf">Productiedossier</a>
+                    <br>
+                </p>
             </div>
         </div>
     </div>
-
     <!-- end Contact -->
 
-
+    <!-- Back to the top -->
     <a id="backtotop" href="#">
         <img src="./images/up.png" alt="scrollup">
     </a>
 
 
-
     <!-- Bootstrap core JavaScript
-            ================================================== -->
+                    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
         crossorigin="anonymous"></script>

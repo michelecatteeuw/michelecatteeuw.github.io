@@ -8,11 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/manifest.json">
+    <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
     <title>Foodtruck</title>
 </head>
 
 <body>
-
     <!-- navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-toggleable-xs" style="background-color: #fdfdfd;">
@@ -23,22 +35,20 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="info.html">Ons Verhaal
-                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="menu.html">Ons Menu</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="producten.html">Onze Producten</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reserveren.html">Reserveren</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="reserveren.html">Reserveren
+                            <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -46,7 +56,9 @@
                 </ul>
             </div>
 
-            <a class="navbar-brand" href="index.html">LOGO</a>
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="./images/logo.png" alt="Logo">
+            </a>
         </nav>
     </header>
     <!-- navbar -->
@@ -56,86 +68,121 @@
         <div class="row">
             <!-- Header Blok, volledige foto -->
             <div class="col-sm-12">
-                <div class="grey hoogte1" style="background-color: grey;"></div>
+                <div class="grey hoogte1" style="background-color: lightgray;"></div>
                 <!-- Overlappende tekst -->
-                <h1>INTERESTED?!</h1>
+                <div class="titel1a">NEED US?!
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="menu.html" id=burger>Onze burgers!</a>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
     <!-- content -->
 
     <!-- Contact Formulier -->
-    <div class="container mainblok">
+    <div class="container_form">
+        <div class="titel2">ONS VERHAAL</div>
+        <br>
+        <p>Onze passie voor ondernemen, mensen en burgers zorgt ervoor dat we onze droom hebben kunnen realiseren. We hebben
+            samen een visie en we gaan ervoor! Samen met ons team willen we nog verder bouwen aan het Gotogo verhaal!
+        </p>
+        <br>
         <form>
-            <h2>Neem contact op!</h2>
+            <div class="titel2">NEEM CONTACT OP!</div>
             <div class="row">
-
                 <div class="col-md-6 form_links">
                     <div class="form-group">
                         <label class="col-form-label" for="formGroupExampleInput"></label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Naam">
+                        <input type="text" class="form-control" id="formtext" placeholder="Naam">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Voornaam">
+                        <input type="text" class="form-control" id="formtext" placeholder="Voornaam">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nummer">
+                        <input type="text" class="form-control" id="formtext" placeholder="Nummer">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="E-mail">
+                        <input type="text" class="form-control" id="formtext" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formtext" placeholder="Adres">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formtext" placeholder="Postcode">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formtext" placeholder="Datum">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="formtext" placeholder="Hoe laat?">
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="form-group">
                         <label class="col-form-label" for="formGroupExampleInput"></label>
-                        <input type="text" class="form-control message" id="formGroupExampleInput" placeholder="Message">
+                        <input type="text" class="form-control message" id="formtext" placeholder="Message">
                     </div>
+                    <button type="button" class="btn btn-outline-secondary">
+                        <a href="#" id=burger>Verzenden</a>
+                    </button>
                 </div>
             </div>
         </form>
     </div>
-
-    
     <!-- end content -->
 
-    <!-- Contact -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 socialmedia">
-                <img src="./images/facebook.png" class="facebook" alt="facebook">
-                <img src="./images/instagram.png" class="instagram" alt="instagram">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="contact_tekst">Wil je meer over ons weten?
-                    <br>
-                    <a href="contact.html">Contacteer ons!</a>
-                </h2>
-            </div>
+   <!-- Contact -->
+   <div class="container_contact">
+    <div class="row">
+        <div class="col-sm-12 socialmedia">
+            <a href="./images/socialmedia.jpg" id="share-fb" class="sharer button">
+                <i class="fa fa-3x fa-facebook-square"></i>
+            </a>
+            <a href="mailtemplate.html" id="nieuwsbrief" class="nieuwsbrief">
+                <i class="fa fa-3x fa-envelope-square"></i>
+            </a>
         </div>
     </div>
-    <!-- end Contact -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="titel3">Wil je meer over ons weten?
+                <br>
+                <a href="contact.html">Contacteer ons!</a>
+            </div>
+            <br>
+            <br>
+            <p class="contact_tekst"> Michèle Catteeuw
+                <br> Artevelde Hogeschool - Campus Mariakerke
+                <br> NMD II - Eindopdracht
+                <br> <a href="./images/productiedossier.pdf">Productiedossier</a>
+                <br>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- end Contact -->
 
-    <!-- Back to the top -->
-    <a id="backtotop" href="#">
-        <img src="./images/up.png" alt="scrollup">
-    </a>
+<!-- Back to the top -->
+<a id="backtotop" href="#">
+    <img src="./images/up.png" alt="scrollup">
+</a>
 
 
-    <!-- Bootstrap core JavaScript
-                        ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
+<!-- Bootstrap core JavaScript
+                ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
 
-    <script src="./js/vendor/jquery.loupe.min.js"></script>
-    <script src="./js/script.js"></script>
+<script src="./js/vendor/jquery.loupe.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 
 </html>
